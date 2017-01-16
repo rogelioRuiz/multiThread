@@ -6,11 +6,11 @@ A pseudo-multi-threading Arduino library.
 ```
 #include "../multiThread.h"
 
-void tickle(uint8_t b){
+void fiveMinute(uint8_t b){
   Serial.print("another 5 minutes passed!")
 }
 
-void fiveMinute(uint8_t b){
+void tickle(uint8_t b){
   Serial.print("another minute passed!")
 }
 
