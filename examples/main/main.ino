@@ -1,4 +1,4 @@
-#include "../multiThread.h"
+#include <multiThread.h>
 
 void fiveMinute(uint8_t b){
   Serial.print("another 5 minutes passed!")
